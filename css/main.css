@@ -3,10 +3,12 @@
 body{
     margin: 0 auto;
     font-family: "Helvetica Neue", Georgia, Palatino, serif;
-    color: #444444;
+    color: #aaa;
     line-height: 1;
     max-width: 960px;
     padding: 30px;
+    background-color: black;
+    background-image: url('img/cctv-banner-1.png'); /*get this shit goin... ey*/
 }
 h1, h2, h3, h4 {
     color: #111111;
@@ -35,17 +37,15 @@ h5 {
     font-size: 18px;
 }
 a {
-    color: #0099ff;
+    color: #444;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: none;
     color: #ff6600;
-}
-a:visited {
-    color: purple;
 }
 ul, ol {
     padding: 0;
@@ -61,7 +61,7 @@ li ul, li ul {
 p, ul, ol {
     font-size: 16px;
     line-height: 24px;
-    max-width: 540px;
+    /*max-width: 540px;*/
 }
 pre {
     padding: 0px 24px;
@@ -262,3 +262,21 @@ button::-moz-focus-inner {
   border: 0;
 }
 
+.wrapper {
+  position: relative;
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 540px;
+}
+nav {
+  padding: 0 0 18px 0;
+  border-bottom: 3px solid #bbb;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-size: 28px;
+}
+nav a:first-child {
+  padding-left: 0;
+}
+nav a {
+  padding: 6px;
+}
