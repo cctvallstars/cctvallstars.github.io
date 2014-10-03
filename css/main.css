@@ -1,4 +1,4 @@
-/* http://kevinburke.bitbucket.org/markdowncss/markdown.css*/
+/* based on markdown stylesheet by http://kevinburke.bitbucket.org/markdowncss/markdown.css*/
 
 /*font for nav*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -277,8 +277,9 @@ h2 {
   .wrapper {
     position: relative;
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 250px auto 0;
     max-width: 540px;
+    background-color: rgba(0,0,0,.8);
   }
   nav {
     padding: 0 0 18px 0;
