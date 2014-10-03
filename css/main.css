@@ -7,8 +7,7 @@ body{
     line-height: 1;
     max-width: 960px;
     padding: 30px;
-    background-color: black;
-    background-image: url('img/cctv-banner-1.png'); /*get this shit goin... ey*/
+    background: url('../img/cctv-banner-1.png') no-repeat black fixed;
 }
 h1, h2, h3, h4 {
     color: #111111;
