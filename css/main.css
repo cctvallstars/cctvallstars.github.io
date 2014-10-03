@@ -273,7 +273,7 @@ button::-moz-focus-inner {
 }
 nav {
   padding: 0 0 18px 0;
-  border-bottom: 3px solid #bbb;
+  border-bottom: 5px solid #fff001;
   font-family: "Montserrat","Helvetica Neue", arial, sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -282,5 +282,6 @@ nav a:first-child {
   padding-left: 0;
 }
 nav a {
+  color: #fff001;
   padding: 6px;
 }
