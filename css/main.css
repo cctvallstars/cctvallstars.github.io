@@ -40,7 +40,8 @@ h5 {
     font-size: 18px;
 }
 a {
-    color: #444;
+    /*color: #444;*/
+    color: #fff001;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -282,6 +283,5 @@ nav a:first-child {
   padding-left: 0;
 }
 nav a {
-  color: #fff001;
   padding: 6px;
 }
