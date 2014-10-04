@@ -91,9 +91,13 @@ pre {
   /*padding: 0px 24px;*/
   /*max-width: 800px;*/
   /*white-space: pre-wrap;*/
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5em;
   display: block;
+  font-family: "Montserrat", "Helvetica Neue", Georgia, Palatino, serif;
+  font-weight: 400;
+  color: #aaa;
+  line-height: 1.5;
 
 }
 code {
