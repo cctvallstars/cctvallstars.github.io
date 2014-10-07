@@ -17,7 +17,8 @@ body{
   font-weight: 400;
   color: #aaa;
   line-height: 1;
-  max-width: 960px;
+  /*max-width: 960px;*/
+  width: 960px;
   padding: 30px;
   /*background: url('../img/cctv-logo-dirty.png') 10px 15px no-repeat, url('../img/black_linen_v2.png') right top repeat;*/
   background:
