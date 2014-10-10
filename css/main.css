@@ -301,7 +301,7 @@ button::-moz-focus-inner {
   position: relative;
   /*border: 1px solid black;*/
   margin: 250px auto 0;
-  max-width: 715px;
+  max-width: 720px;
   /*background-color: rgba(0,0,0,.2);*/
 }
 .content {
