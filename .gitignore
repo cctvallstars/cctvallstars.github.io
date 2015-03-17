@@ -2,3 +2,4 @@ _site
 .sass-cache
 info.md
 cctv_info.md
+feed.xml
