@@ -2,56 +2,22 @@
 layout: default
 ---
 
-<!--
-<h2>Upcoming Gigs 2014</h2>
+<!-- variables -->
+{% assign: current_year = site.time | date: "%Y" %}
+{% assign: current_year = current_year | times: 1 %}
 
-      <p>08.10 | 20:00 | Java Bar (Hosting Jam Session), Brussels, BE</p>
-      <p>11.10 | The Gladstone, Lewes Road, Brighton, UK</p>
-      <p>12.10 | The Rose and Crown, Worthing, UK</p>
-      <p>18.10 | El Metteko, Anspachlaan 88, Brussels, BE <br />- Eddy &amp; Ulf duo</p>
-      <p>19.10 | El Metteko, Anspachlaan 88, Brussels, BE <br />- Full band</p>
-      <p>21.10 | Bar Ville (Hosting Jam Session), Gent, BE</p>
-      <!~~ <p>06.11 | Zebra Bar, Brussels, BE</p> ~~>
-      <p>13.11 | De Hellekapelle, Zottegem, BE</p>
-      <p>29.11 | Cafe Kafka, Brussels, BE <br />- Eddy &amp; Ulf duo</p>
+<h2>Concerts {{ current_year }}</h2>
+<code>
+  {% for concert in site.data.concerts %}
+    {% if concert.year >= current_year %}
+    <p style="line-height:.4em;">
+      {{ concert.concert }}
 
-      <h3>Czech Tour</h3>
-      <p>18.11 | Cross Club, Prague 7, CZ</p>
-      <p>19.11 | Chapeaurouge, Prague 1, CZ</p>
-      <p>20.11 | Red Room, Prague 2, CZ</p>
-      <p>21.11 | TBA</p>
-      <p>22.11 | Antikomunist_fest 11, Lestkov, CZ</p>
+        {% if concert.meta %}
+          | <span style="font-size:80%;">{{ concert.meta }}</span>
+        {% endif %}
 
-      <h3>German Tour</h3>
-
-      <p>02.12 | Achen, DE</p>
-      <p>03.12 | TBA, DE</p>
-      <p>04.12 | Schokoladen, Berlin, DE</p>
-      <p>05.12 | TBA, DE</p>
-      <p>06.12 | TBA, DE</p>
-      <p>07.12 | TBA, DE</p>
-      <p>08.12 | TBA, DE</p>
-      <p>09.12 | Kofferfabrik, Fürth, DE</p>-->
-
-
-      <h2>Upcoming Gigs 2015</h2>
-
-      <h3>April 2015</h3>
-      <code>
-        <p>03.4 | Friedland, Endstation - DE</p>
-        <p>04.4 | Berlin, Tommy Weisbecker Haus - DE</p>
-        <p>11.4 | Prague, Kamp Park - CZ</p>
-        <p>16.4 | Prague, La Loca - CZ</p>
-        <p>17.4 | Grebin, Die Hofkneipe - DE</p>
-        <p>18.4 | Flensburg, Tableau Kulturcafé - DE</p>
-        <p>24.4 | Prague, Akropolis (With Ting Album Release Party) - CZ</p>
-      </code>
-
-      <h3>May 2015</h3>
-      <code>
-        <p>08.5 | Prague, Million Marihuana March - CZ</p>
-      </code>
-      <h3>June 2015</h3>
-      <code>
-        <p>16.4 | Prague, Cross Club - CZ</p>
-      </code>
+    {% endif %}
+  </p>
+  {% endfor %}
+</code>
