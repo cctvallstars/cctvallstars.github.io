@@ -1,10 +1,5 @@
-_site/
+_site
 .sass-cache
 info.md
 cctv_info.md
 feed.xml
-_site/collective.html
-_site/collective.html
-_site/collective.html
-_site/media.html
-_site/video.html
