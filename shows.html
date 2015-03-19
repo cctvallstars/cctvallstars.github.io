@@ -14,7 +14,7 @@ layout: default
       {{ concert.concert }}
 
         {% if concert.meta %}
-          | <span style="font-size:80%;">{{ concert.meta }}</span>
+          | <span style="font-size:80%; {% if concert.meta == 'TBA' %} color:#EBEE00;{% endif %}">{{ concert.meta }}</span>
         {% endif %}
 
     {% endif %}
