@@ -50,10 +50,23 @@
   year: 2015
   first_concert_of_year: true
 
+- concert: 01.04 | Sellin auf Rügen, Böhmisches Gasthaus - DE
+  year: 2015
+
+- concert: 02.04 | Friedland, Endstation - DE
+  year: 2015
+
 - concert: 03.04 | Friedland, Endstation - DE
   year: 2015
 
 - concert: 04.04 | Berlin, Tommy Weisbecker Haus - DE
+  year: 2015
+
+- concert: 05.04 |  Prague, Parukářka - CZ
+  meta: Eddy Allen Trio
+  year: 2015
+
+- concert: 07.04 | Prague, Chapeau Rouge - CZ
   year: 2015
 
 - concert: 11.04 | Prague, Kamp Park - CZ
@@ -73,22 +86,6 @@
   meta: With Ting, Album Release Party
   year: 2015
 
-- concert: 01.04 | Sellin auf Rügen, Böhmisches Gasthaus - DE
-  year: 2015
-
-- concert: 02.04 | Friedland, Endstation - DE
-  year: 2015
-
-- concert: 04.04 | Berlin, Tommy Weisbecker Haus - DE
-  year: 2015
-
-- concert: 05.04 |  Prague, Parukářka - CZ
-  meta: Eddy Allen Trio
-  year: 2015
-
-- concert: 07.04 | Prague, Chapeau Rouge - CZ
-  year: 2015
-
 - concert: 25.04 | Potsdam, Restaurant Hiemke - DE
   year: 2015
 
@@ -99,13 +96,13 @@
 - concert: 02.05 | Ummanz auf Rügen, Surfhostel - DE
   year: 2015
 
+- concert: 08.05 | Prague, Million Marihuana March - CZ
+  year: 2015
+
 - concert: 30.05 | Brno, Mersey Club - CZ
   year: 2015
 
 - concert: 16.06 | Prague, Cross Club - CZ
-  year: 2015
-
-- concert: 08.05 | Prague, Million Marihuana March - CZ
   year: 2015
 
 - concert: 28-29.08 | Potsdam, Ohne Sorgen Festival - DE 
