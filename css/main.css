@@ -341,3 +341,17 @@ nav a {
   /*keeps the boxes lined up better with last .list-col longer*/
   min-height: 12em;
 }
+
+.past-concerts-header:before {
+  content: '+ ' ;
+}
+/*TODO*/
+/* add this class with jQuery in head.html on toggler visible (click) and remove on hiding (click again) */
+/*.past-concerts-header.visible:before {
+  content: '- ' ;
+}
+*/
+.past-concerts-header:hover {
+  cursor: pointer;
+  color: #ff6600;
+}

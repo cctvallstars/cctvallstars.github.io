@@ -10,14 +10,43 @@ layout: default
 <code>
   {% for concert in site.data.concerts %}
     {% if concert.year >= current_year %}
-    <p style="line-height:.4em;">
+    <p style="line-height:.4em; {% if concert.cancelled == true %} text-decoration: line-through; color: #F00{% endif %}">
       {{ concert.concert }}
 
         {% if concert.meta %}
-          | <span style="font-size:80%; {% if concert.meta == 'TBA' %} color:#EBEE00;{% endif %}">{{ concert.meta }}</span>
+          | <span style="font-size:80%; {% if concert.meta == 'TBA' %} color:#d5cb01;{% endif %}">{{ concert.meta }}</span>
         {% endif %}
 
     {% endif %}
   </p>
   {% endfor %}
+
+<br/>
+<hr>
+
+<h3 class="past-concerts-header"><span>Past concerts</span></h3>
+<!-- TODO:
+make this into a 'read more' box
+ -->
+<div class="past-concerts-box" style="display: none;">
+  {% for concert in site.data.concerts %}
+
+    {% if concert.year < current_year %}
+
+      {% if concert.first_concert_of_year == true %}
+        <h4>{{ concert.year }}</h4>
+      {% endif %}
+    <p style="line-height:.4em; {% if concert.cancelled == true %} text-decoration: line-through; color: #F00{% endif %}">
+      {{ concert.concert }}
+
+        {% if concert.meta %}
+          | <span style="font-size:80%; {% if concert.meta == 'TBA' %} color:#D5CB01;{% endif %}">{{ concert.meta }}</span>
+        {% endif %}
+
+    {% endif %}
+  </p>
+  {% endfor %}
+</div>
+
+
 </code>

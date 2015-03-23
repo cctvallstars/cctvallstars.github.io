@@ -1,6 +1,7 @@
 # Upcoming Gigs 2014
 - concert: 08.10 | Java Bar (Hosting Jam Session), Brussels, BE
   year: 2014
+  first_concert_of_year: true
 
 - concert: 11.10 | The Gladstone, Lewes Road, Brighton, UK
   year: 2014
@@ -45,6 +46,10 @@
 - concert: 22.11 | Lestkov, Antikomunist_fest 11 - CZ
   year: 2014
 
+- concert: 31.03 | Wulfen auf Fehmarn, Camping Wulfener Hals - DE
+  year: 2015
+  first_concert_of_year: true
+
 - concert: 03.04 | Friedland, Endstation - DE
   year: 2015
 
@@ -56,6 +61,7 @@
 
 - concert: 16.04 | Prague, La Loca - CZ
   year: 2015
+  cancelled: true
 
 - concert: 17.04 | Grebin, Die Hofkneipe - DE
   year: 2015
@@ -65,15 +71,6 @@
 
 - concert: 24.04 | Prague, Akropolis - CZ
   meta: With Ting, Album Release Party
-  year: 2015
-
-- concert: 08.05 | Prague, Million Marihuana March - CZ
-  year: 2015
-
-- concert: 16.04 | Prague, Cross Club - CZ
-  year: 2015
-
-- concert: 31.03 | Wulfen auf Fehmarn, Camping Wulfener Hals - DE
   year: 2015
 
 - concert: 01.04 | Sellin auf Rügen, Böhmisches Gasthaus - DE
@@ -103,6 +100,12 @@
   year: 2015
 
 - concert: 30.05 | Brno, Mersey Club - CZ
+  year: 2015
+
+- concert: 16.06 | Prague, Cross Club - CZ
+  year: 2015
+
+- concert: 08.05 | Prague, Million Marihuana March - CZ
   year: 2015
 
 - concert: 28-29.08 | Potsdam, Ohne Sorgen Festival - DE 

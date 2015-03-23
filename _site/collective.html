@@ -2,10 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>CCTV ALLSTARS</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <title>CCTV ALLSTARS</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("h3.past-concerts-header").click(function(){
+        $(".past-concerts-box").slideToggle(1000);
+      });
+    });
+  </script>
+
 </head>
 
 
