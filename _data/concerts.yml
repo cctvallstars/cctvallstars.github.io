@@ -40,60 +40,94 @@
 - concert: 20.11 | Red Room, Prague 2, CZ
   year: 2014
 
-- concert: 22.11 | Lestkov, Antikomunist_fest 11 - CZ
+- concert: 22.11 | Lestkov, Antikomunist_fest 11, CZ
   year: 2014
 
-- concert: 31.03 | Wulfen auf Fehmarn, Camping Wulfener Hals - DE
+- concert: 31.03 | Wulfen auf Fehmarn, Camping Wulfener Hals, DE
   year: 2015
   first_concert_of_year: true
 
-- concert: 01.04 | Sellin auf Rügen, Böhmisches Gasthaus - DE
+- concert: 01.04 | Sellin auf Rügen, Böhmisches Gasthaus, DE
   year: 2015
 
-- concert: 02.04 | Friedland, Endstation - DE
+- concert: 02.04 | Friedland, Endstation, DE
   year: 2015
 
-- concert: 03.04 | Friedland, Endstation - DE
+- concert: 03.04 | Friedland, Endstation, DE
   year: 2015
 
-- concert: 04.04 | Berlin, Tommy Weisbecker Haus - DE
+- concert: 04.04 | Berlin, Tommy Weisbecker Haus, DE
   year: 2015
 
-- concert: 05.04 |  Prague, Parukářka - CZ
+- concert: 05.04 |  Prague, Parukářka, CZ
   meta: Eddy Allen Trio
   year: 2015
 
-- concert: 07.04 | Prague, Chapeau Rouge - CZ
+- concert: 07.04 | Prague, Chapeau Rouge, CZ
   year: 2015
 
-- concert: 11.04 | Prague, Kamp Park - CZ
+- concert: 11.04 | Prague, Kamp Park, CZ
   year: 2015
 
-- concert: 17.04 | Grebin, Die Hofkneipe - DE
+- concert: 17.04 | Grebin, Die Hofkneipe, DE
   year: 2015
 
-- concert: 18.04 | Flensburg, Tableau Kulturcafé - DE
+- concert: 18.04 | Flensburg, Tableau Kulturcafé, DE
   year: 2015
 
-- concert: 24.04 | Prague, Akropolis - CZ
+- concert: 24.04 | Prague, Akropolis, CZ
   meta: With Ting, Album Release Party
   year: 2015
 
-- concert: 25.04 | Potsdam, Restaurant Hiemke - DE
+- concert: 25.04 | Restaurant Hiemke, Potsdam, DE
   year: 2015
 
-- concert: 26.04 | Dresden, Wyndham Garden - DE
+- concert: 26.04 | Wyndham Garden, Dresden, DE
   meta: Closed event
   year: 2015
 
-- concert: 02.05 | Ummanz auf Rügen, Surfhostel - DE
+- concert: 02.05 | Ummanz auf Rügen, Surfhostel, DE
   year: 2015
 
-- concert: 08.05 | Prague, Million Marihuana March - CZ
+- concert: 08.05 | Million Marihuana March, Prague, CZ
   year: 2015
 
-- concert: 16.06 | Prague, Cross Club - CZ
+- concert: 14.05 | Gallery A Void Naplavka-Prague, CZ
+  year: 2015
+  meta: Eddy Allen and Justin Lavash Duo
+
+- concert: 24.05 | Parukářka, Prague, CZ
+  meta: 17:00 - 20:00
   year: 2015
 
-- concert: 28-29.08 | Potsdam, Ohne Sorgen Festival - DE 
+- concert: 05.06 | Town Square, Benátky nad Jizerou, CZ
+  year: 2015
+
+- concert: 07.06 | Parukářka, Prague, CZ
+  meta: 17:00 - 20:00
+  year: 2015
+
+- concert: 09.06 | Chapeau Rouge, Prague, CZ
+  year: 2015
+
+- concert: 13.06 | Ajvafest, Tabor, CZ
+  year: 2015
+
+- concert: 16.06 | Prague, Cross Club, CZ
+  year: 2015
+
+- concert: 21.06 | Parukářka, Prague, CZ
+  meta: 17:00 - 20:00
+  year: 2015
+
+- concert: 03.07 - 04.07 | Mighty Sounds Festival, Tabor, CZ
+  year: 2015
+
+- concert: 27.08 | Schokoladen, Berlin, DE
+  year: 2015
+
+- concert: 28.08 | Ohne Sorgen Festival, Potsdam, DE
+  year: 2015
+
+- concert: 29.08 | Rock im Park, Leuben-Schlenitz, DE
   year: 2015
