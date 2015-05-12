@@ -8,7 +8,7 @@ layout: default
 
 <h2>Concerts {{ current_year }}</h2>
 <code>
-  {% for concert in site.data.concerts reversed %}
+  {% for concert in site.data.concerts %}
     {% if concert.year >= current_year %}
     <p style="line-height:.4em;">
       {{ concert.concert }}
