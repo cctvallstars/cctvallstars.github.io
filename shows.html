@@ -35,7 +35,7 @@ layout: default
 make this into a 'read more' box
  -->
 <div class="past-concerts-box" style="display: none;">
-  {% for concert in site.data.concerts %}
+  {% for concert in site.data.concerts reversed %}
 
     {% if concert.year < current_year %}
 
